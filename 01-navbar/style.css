@@ -1,0 +1,149 @@
+/* h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+d-flex {
+    display: flex;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body {
+    background-color: black;
+}
+
+/* flex classes start*/
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* flex classes end*/
+
+
+/* margin classes started */
+m-1 {
+    margin: 5px;
+}
+
+m-2 {
+    margin: 10px;
+}
+
+m-3 {
+    margin: 15px;
+}
+
+m-4 {
+    margin: 20px;
+}
+
+m-5 {
+    margin-top: 25px;
+}
+
+mt-1 {
+    margin-top: 5px;
+}
+
+mt-2 {
+    margin-top: 10px;
+}
+
+mt-3 {
+    margin-top: 15px;
+}
+
+mt-4 {
+    margin-top: 20px;
+}
+
+mt-5 {
+    margin-top: 25px;
+}
+
+.ml-5 {
+    margin-left: 25px;
+}
+
+.mr-5 {
+    margin-right: 25px;
+}
+
+.gap {
+    display: flex;
+    gap: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* margin classes ended */
+
+
+
+
+/* custom classes */
+#logo-image {
+    width: 165px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#franchise {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+#order-online {
+    background-color: #ed1c24;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 20px;
+}
