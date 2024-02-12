@@ -22,12 +22,12 @@ d-flex {
 * {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
-body {
+/* body {
     background-color: black;
-}
+} */
 
 /* flex classes start*/
 
@@ -146,4 +146,36 @@ ul {
     border: none;
     padding: 12px 17px;
     border-radius: 20px;
+}
+
+
+.parent {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+
 }
